@@ -54,14 +54,14 @@
         },
         {
             "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.4114583333333333,
-            "y": 0.17464114832535885,
-            "uniqueID": 233611,
+            "name": "Leg layout padding",
+            "x": 0.15416666666666665,
+            "y": 0.3708133971291866,
+            "uniqueID": 107688,
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 40
+                    "ioValue": 10
                 }
             ],
             "evolve": false,
@@ -71,13 +71,13 @@
         {
             "atomType": "Constant",
             "name": "Constant",
-            "x": 0.16614583333333333,
-            "y": 0.42822966507177035,
-            "uniqueID": 107688,
+            "x": 0.4114583333333333,
+            "y": 0.17464114832535885,
+            "uniqueID": 233611,
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 10
+                    "ioValue": 40
                 }
             ],
             "evolve": false,
@@ -149,8 +149,8 @@
         {
             "atomType": "Equation",
             "name": "Equation",
-            "x": 0.48697916666666663,
-            "y": 0.47368421052631576,
+            "x": 0.45052083333333337,
+            "y": 0.5047846889952153,
             "uniqueID": 762888,
             "ioValues": [
                 {
@@ -159,7 +159,25 @@
                 },
                 {
                     "name": "y",
-                    "ioValue": 1
+                    "ioValue": 10
+                }
+            ],
+            "currentEquation": "x/2 - y"
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.5109375,
+            "y": 0.4569377990430622,
+            "uniqueID": 925350,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 800
+                },
+                {
+                    "name": "y",
+                    "ioValue": 10
                 }
             ],
             "currentEquation": "x/2 - y"
@@ -260,7 +278,7 @@
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": 400
+                    "ioValue": 390
                 },
                 {
                     "name": "yDist",
@@ -287,6 +305,13 @@
             "ap2Primary": false,
             "ap1ID": 724777,
             "ap2ID": 177218
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "y",
+            "ap2Primary": false,
+            "ap1ID": 107688,
+            "ap2ID": 762888
         },
         {
             "ap1Name": "number",

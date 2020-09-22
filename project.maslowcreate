@@ -267,20 +267,20 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.8489583333333333,
-            "y": 0.37559808612440193,
+            "x": 0.8666666666666667,
+            "y": 0.22488038277511962,
             "uniqueID": 702883,
             "ioValues": [
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 10
-                },
                 {
                     "name": "3D shape 4",
                     "ioValue": 10
                 },
                 {
                     "name": "3D shape 6",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 7",
                     "ioValue": 10
                 }
             ]
@@ -433,8 +433,8 @@
         {
             "atomType": "Color",
             "name": "Color",
-            "x": 0.8067708333333334,
-            "y": 0.9114832535885168,
+            "x": 0.8151041666666667,
+            "y": 0.8373205741626794,
             "uniqueID": 732487,
             "ioValues": [],
             "selectedColorIndex": "5"
@@ -735,13 +735,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
-            "ap1ID": 762111,
-            "ap2ID": 702883
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 762111,
@@ -759,6 +752,13 @@
             "ap2Primary": false,
             "ap1ID": 629796,
             "ap2ID": 956463
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 7",
+            "ap2Primary": false,
+            "ap1ID": 732487,
+            "ap2ID": 702883
         }
     ],
     "fileTypeVersion": 1,

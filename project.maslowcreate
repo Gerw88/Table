@@ -121,7 +121,7 @@
             "y": 0.18421052631578946,
             "uniqueID": 487481,
             "ioValues": [],
-            "selectedColorIndex": "12"
+            "selectedColorIndex": "11"
         },
         {
             "atomType": "Constant",
@@ -485,13 +485,6 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 570940,
-            "ap2ID": 463460
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 570940,
             "ap2ID": 487481
         },
         {
@@ -508,7 +501,13 @@
             "ap1ID": 107688,
             "ap2ID": 925350
         },
-        null,
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 487481,
+            "ap2ID": 463460
+        },
         {
             "ap1Name": "number",
             "ap2Name": "height",

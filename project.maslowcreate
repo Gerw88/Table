@@ -151,8 +151,8 @@
         {
             "atomType": "Equation",
             "name": "Equation",
-            "x": 0.5838541666666667,
-            "y": 0.37320574162679426,
+            "x": 0.5958333333333333,
+            "y": 0.34688995215311,
             "uniqueID": 718261,
             "ioValues": [
                 {
@@ -470,6 +470,7 @@
             "ap1ID": 248420,
             "ap2ID": 463460
         },
+        null,
         {
             "ap1Name": "result",
             "ap2Name": "xDist",

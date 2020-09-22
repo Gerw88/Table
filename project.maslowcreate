@@ -71,8 +71,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.39114583333333336,
-            "y": 0.30861244019138756,
+            "x": 0.33958333333333335,
+            "y": 0.25598086124401914,
             "uniqueID": 177218,
             "ioValues": [
                 {
@@ -118,80 +118,14 @@
             "max": 20
         },
         {
-            "atomType": "Equation",
-            "name": "Equation",
-            "x": 0.6130208333333333,
-            "y": 0.15071770334928228,
-            "uniqueID": 718261,
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 710
-                }
-            ],
-            "currentEquation": "x * -1"
-        },
-        {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.5734375,
-            "y": 0.31100478468899523,
-            "uniqueID": 463460,
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 900
-                }
-            ]
-        },
-        {
-            "atomType": "Equation",
-            "name": "Equation",
-            "x": 0.6088541666666667,
-            "y": 0.2535885167464115,
-            "uniqueID": 762888,
-            "ioValues": [
-                {
-                    "name": "y",
-                    "ioValue": 1600
-                },
-                {
-                    "name": "m",
-                    "ioValue": 90
-                }
-            ],
-            "currentEquation": "y/2 - m"
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.515625,
-            "y": 0.43540669856459335,
+            "x": 0.4677083333333333,
+            "y": 0.41626794258373206,
             "uniqueID": 570940,
             "ioValues": [
                 {
                     "name": "height",
-                    "ioValue": 40
-                }
-            ]
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.38802083333333337,
-            "y": 0.583732057416268,
-            "uniqueID": 153556,
-            "ioValues": [
-                {
-                    "name": "diameter",
                     "ioValue": 40
                 }
             ]
@@ -213,63 +147,23 @@
             "max": 20
         },
         {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.7468750000000001,
-            "y": 0.10047846889952153,
-            "uniqueID": 336641,
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.3364583333333333,
+            "y": 0.6674641148325359,
+            "uniqueID": 153556,
             "ioValues": [
                 {
-                    "name": "xDist",
-                    "ioValue": -310
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": -710
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
+                    "name": "diameter",
+                    "ioValue": 40
                 }
             ]
         },
         {
-            "atomType": "Equation",
-            "name": "Equation",
-            "x": 0.6109375,
-            "y": 0.44976076555023925,
-            "uniqueID": 802721,
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 310
-                }
-            ],
-            "currentEquation": "x * -1"
-        },
-        {
-            "atomType": "Equation",
-            "name": "Equation",
-            "x": 0.584375,
-            "y": 0.5717703349282297,
-            "uniqueID": 925350,
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 800
-                },
-                {
-                    "name": "m",
-                    "ioValue": 90
-                }
-            ],
-            "currentEquation": "x/2 - m"
-        },
-        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.771875,
-            "y": 0.30143540669856456,
+            "x": 0.6875,
+            "y": 0.3181818181818182,
             "uniqueID": 576552,
             "ioValues": [
                 {
@@ -285,6 +179,54 @@
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.4661458333333333,
+            "y": 0.6004784688995215,
+            "uniqueID": 889510,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 900
+                }
+            ]
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.7703125,
+            "y": 0.15550239234449761,
+            "uniqueID": 463460,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 900
+                }
+            ]
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.6458333333333334,
+            "y": 0.5287081339712919,
+            "uniqueID": 718261,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 710
+                }
+            ],
+            "currentEquation": "x * -1"
         },
         {
             "atomType": "Assembly",
@@ -310,6 +252,45 @@
         {
             "atomType": "Translate",
             "name": "Translate",
+            "x": 0.7625000000000001,
+            "y": 0.42105263157894735,
+            "uniqueID": 336641,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": -310
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": -710
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.64375,
+            "y": 0.6052631578947368,
+            "uniqueID": 762888,
+            "ioValues": [
+                {
+                    "name": "y",
+                    "ioValue": 1600
+                },
+                {
+                    "name": "m",
+                    "ioValue": 90
+                }
+            ],
+            "currentEquation": "y/2 - m"
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
             "x": 0.7296875,
             "y": 0.5550239234449761,
             "uniqueID": 123695,
@@ -329,17 +310,18 @@
             ]
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.540625,
-            "y": 0.799043062200957,
-            "uniqueID": 889510,
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.5927083333333333,
+            "y": 0.7272727272727273,
+            "uniqueID": 802721,
             "ioValues": [
                 {
-                    "name": "height",
-                    "ioValue": 900
+                    "name": "x",
+                    "ioValue": 310
                 }
-            ]
+            ],
+            "currentEquation": "x * -1"
         },
         {
             "atomType": "Assembly",
@@ -357,6 +339,24 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.5932291666666667,
+            "y": 0.8014354066985646,
+            "uniqueID": 925350,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 800
+                },
+                {
+                    "name": "m",
+                    "ioValue": 90
+                }
+            ],
+            "currentEquation": "x/2 - m"
         },
         {
             "atomType": "Output",
@@ -476,6 +476,69 @@
             "ap2ID": 463460
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 570940,
+            "ap2ID": 463460
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 768626,
+            "ap2ID": 153556
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 153556,
+            "ap2ID": 889510
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 5",
+            "ap2Primary": false,
+            "ap1ID": 576552,
+            "ap2ID": 212452
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 889510,
+            "ap2ID": 762111
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 889510,
+            "ap2ID": 123695
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 889510,
+            "ap2ID": 576552
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 889510,
+            "ap2ID": 336641
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 4",
+            "ap2Primary": false,
+            "ap1ID": 463460,
+            "ap2ID": 702883
+        },
+        {
             "ap1Name": "result",
             "ap2Name": "yDist",
             "ap2Primary": false,
@@ -491,9 +554,16 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 4",
+            "ap2Name": "3D shape 5",
             "ap2Primary": false,
-            "ap1ID": 463460,
+            "ap1ID": 702883,
+            "ap2ID": 629796
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 5",
+            "ap2Primary": false,
+            "ap1ID": 336641,
             "ap2ID": 702883
         },
         {
@@ -519,31 +589,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 570940,
-            "ap2ID": 463460
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 153556,
-            "ap2ID": 889510
-        },
-        {
-            "ap1Name": "number",
-            "ap2Name": "diameter",
+            "ap2Name": "3D shape 4",
             "ap2Primary": false,
-            "ap1ID": 768626,
-            "ap2ID": 153556
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 5",
-            "ap2Primary": false,
-            "ap1ID": 336641,
-            "ap2ID": 702883
+            "ap1ID": 123695,
+            "ap2ID": 212452
         },
         {
             "ap1Name": "result",
@@ -558,6 +607,12 @@
             "ap2Primary": false,
             "ap1ID": 802721,
             "ap2ID": 576552
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 629796
         },
         {
             "ap1Name": "result",
@@ -579,61 +634,6 @@
             "ap2Primary": false,
             "ap1ID": 925350,
             "ap2ID": 123695
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 5",
-            "ap2Primary": false,
-            "ap1ID": 576552,
-            "ap2ID": 212452
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 5",
-            "ap2Primary": false,
-            "ap1ID": 702883,
-            "ap2ID": 629796
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 4",
-            "ap2Primary": false,
-            "ap1ID": 123695,
-            "ap2ID": 212452
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 889510,
-            "ap2ID": 762111
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 889510,
-            "ap2ID": 123695
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 889510,
-            "ap2ID": 576552
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 889510,
-            "ap2ID": 336641
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 629796
         },
         {
             "ap1Name": "geometry",

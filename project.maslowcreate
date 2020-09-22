@@ -167,6 +167,27 @@
             "currentEquation": "x/2 - m"
         },
         {
+            "atomType": "Box",
+            "name": "Box",
+            "x": 0.5682291666666667,
+            "y": 0.4856459330143541,
+            "ioValues": []
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.5838541666666667,
+            "y": 0.47368421052631576,
+            "uniqueID": 718261,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                }
+            ],
+            "currentEquation": "x * -1"
+        },
+        {
             "atomType": "Translate",
             "name": "Translate",
             "x": 0.6645833333333333,
@@ -204,6 +225,31 @@
             "max": 20
         },
         {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.665625,
+            "y": 0.5287081339712919,
+            "uniqueID": 336641,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 310
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 710
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.5192708333333333,
@@ -234,11 +280,52 @@
             ]
         },
         {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.3635416666666667,
+            "y": 0.7966507177033494,
+            "uniqueID": 153556,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 40
+                }
+            ]
+        },
+        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.6625,
-            "y": 0.5717703349282297,
-            "uniqueID": 336641,
+            "x": 0.6234375000000001,
+            "y": 0.6674641148325359,
+            "uniqueID": 762111,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 310
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 710
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.8796875000000001,
+            "y": 0.37559808612440193,
+            "ioValues": []
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.7109375,
+            "y": 0.722488038277512,
+            "uniqueID": 576552,
             "ioValues": [
                 {
                     "name": "geometry",
@@ -259,32 +346,16 @@
             ]
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.3635416666666667,
-            "y": 0.7966507177033494,
-            "uniqueID": 153556,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 40
-                }
-            ]
-        },
-        {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.8796875000000001,
-            "y": 0.37559808612440193,
-            "ioValues": []
-        },
-        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.7453124999999999,
-            "y": 0.8708133971291867,
-            "uniqueID": 762111,
+            "x": 0.6713541666666667,
+            "y": 0.8277511961722489,
+            "uniqueID": 123695,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
                 {
                     "name": "xDist",
                     "ioValue": 310

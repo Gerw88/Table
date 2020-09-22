@@ -330,6 +330,15 @@
             "currentEquation": "x * -1"
         },
         {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.44999999999999996,
+            "y": 0.8492822966507177,
+            "uniqueID": 926752,
+            "ioValues": [],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+        },
+        {
             "atomType": "Equation",
             "name": "Equation",
             "x": 0.5932291666666667,
@@ -363,15 +372,6 @@
                     "ioValue": 10
                 }
             ]
-        },
-        {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.49531250000000004,
-            "y": 0.8803827751196172,
-            "uniqueID": 926752,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
             "atomType": "Translate",

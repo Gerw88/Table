@@ -132,7 +132,7 @@
         },
         {
             "atomType": "Constant",
-            "name": "Constant",
+            "name": "Leg Height",
             "x": 0.2484375,
             "y": 0.6220095693779905,
             "uniqueID": 248420,
@@ -169,7 +169,7 @@
         },
         {
             "atomType": "Constant",
-            "name": "Constant",
+            "name": "Leg Diameter",
             "x": 0.24791666666666667,
             "y": 0.8110047846889952,
             "uniqueID": 768626,
@@ -240,10 +240,6 @@
             "y": 0.7464114832535885,
             "uniqueID": 762111,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
                 {
                     "name": "xDist",
                     "ioValue": 0
@@ -330,7 +326,13 @@
             "ap1ID": 889510,
             "ap2ID": 702883
         },
-        null,
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 889510,
+            "ap2ID": 762111
+        },
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",

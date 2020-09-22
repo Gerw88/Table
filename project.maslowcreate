@@ -181,6 +181,31 @@
             ]
         },
         {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.6359375,
+            "y": 0.5717703349282297,
+            "uniqueID": 762111,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
             "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.7765625,

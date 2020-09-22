@@ -137,7 +137,7 @@
             "y": 0.2966507177033493,
             "uniqueID": 487481,
             "ioValues": [],
-            "selectedColorIndex": "11"
+            "selectedColorIndex": "1"
         },
         {
             "atomType": "Constant",
@@ -230,7 +230,7 @@
             "y": 0.16267942583732056,
             "uniqueID": 570800,
             "ioValues": [],
-            "selectedColorIndex": "5"
+            "selectedColorIndex": "1"
         },
         {
             "atomType": "Equation",
@@ -313,7 +313,7 @@
             "y": 0.4904306220095694,
             "uniqueID": 629291,
             "ioValues": [],
-            "selectedColorIndex": "5"
+            "selectedColorIndex": "1"
         },
         {
             "atomType": "Equation",
@@ -437,7 +437,7 @@
             "y": 0.7368421052631579,
             "uniqueID": 732487,
             "ioValues": [],
-            "selectedColorIndex": "5"
+            "selectedColorIndex": "1"
         },
         {
             "atomType": "Color",
@@ -446,7 +446,7 @@
             "y": 0.8349282296650717,
             "uniqueID": 403884,
             "ioValues": [],
-            "selectedColorIndex": "5"
+            "selectedColorIndex": "1"
         },
         {
             "atomType": "Stl",

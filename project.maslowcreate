@@ -330,15 +330,6 @@
             "currentEquation": "x * -1"
         },
         {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.44999999999999996,
-            "y": 0.8492822966507177,
-            "uniqueID": 926752,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
-        },
-        {
             "atomType": "Equation",
             "name": "Equation",
             "x": 0.5932291666666667,
@@ -460,26 +451,10 @@
         {
             "atomType": "Stl",
             "name": "Stl",
-            "x": 0.9697916666666666,
-            "y": 0.8444976076555024,
+            "x": 0.9708333333333334,
+            "y": 0.6770334928229664,
             "uniqueID": 956463,
             "ioValues": []
-        },
-        {
-            "atomType": "Add-BOM-Tag",
-            "name": "Add BOM Tag",
-            "x": 0.9817708333333334,
-            "y": 0.8492822966507177,
-            "uniqueID": 399238,
-            "ioValues": [],
-            "BOMitem": {
-                "BOMitemName": "name",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": "www.example.com",
-                "totalNeeded": 1,
-                "radius": 0.015384615384615385
-            }
         }
     ],
     "allConnectors": [

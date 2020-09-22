@@ -22,14 +22,14 @@
         },
         {
             "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.25260416666666663,
-            "y": 0.1339712918660287,
-            "uniqueID": 808856,
+            "name": "Table Top Y Dimension",
+            "x": 0.24583333333333335,
+            "y": 0.22727272727272727,
+            "uniqueID": 724777,
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 900
+                    "ioValue": 1600
                 }
             ],
             "evolve": false,
@@ -38,14 +38,14 @@
         },
         {
             "atomType": "Constant",
-            "name": "Table Top Y Dimension",
-            "x": 0.21614583333333334,
-            "y": 0.2822966507177034,
-            "uniqueID": 724777,
+            "name": "Leg layout padding",
+            "x": 0.24687499999999998,
+            "y": 0.3492822966507177,
+            "uniqueID": 107688,
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 1600
+                    "ioValue": 10
                 }
             ],
             "evolve": false,
@@ -103,14 +103,14 @@
         },
         {
             "atomType": "Constant",
-            "name": "Leg layout padding",
-            "x": 0.3671875,
-            "y": 0.47607655502392343,
-            "uniqueID": 107688,
+            "name": "Constant",
+            "x": 0.5776041666666667,
+            "y": 0.10526315789473684,
+            "uniqueID": 808856,
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 10
+                    "ioValue": 900
                 }
             ],
             "evolve": false,
@@ -151,8 +151,8 @@
         {
             "atomType": "Constant",
             "name": "Leg Height",
-            "x": 0.2484375,
-            "y": 0.6220095693779905,
+            "x": 0.3729166666666667,
+            "y": 0.6363636363636364,
             "uniqueID": 248420,
             "ioValues": [
                 {
@@ -163,6 +163,24 @@
             "evolve": false,
             "min": 0,
             "max": 20
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.48854166666666665,
+            "y": 0.5526315789473684,
+            "uniqueID": 925350,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 800
+                },
+                {
+                    "name": "m",
+                    "ioValue": 10
+                }
+            ],
+            "currentEquation": "x/2 - m"
         },
         {
             "atomType": "Translate",
@@ -181,27 +199,9 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 900
+                    "ioValue": 0
                 }
             ]
-        },
-        {
-            "atomType": "Equation",
-            "name": "Equation",
-            "x": 0.4640625,
-            "y": 0.6052631578947368,
-            "uniqueID": 925350,
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 800
-                },
-                {
-                    "name": "m",
-                    "ioValue": 10
-                }
-            ],
-            "currentEquation": "x/2 - m"
         },
         {
             "atomType": "Constant",
@@ -263,42 +263,35 @@
             ]
         },
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.8796875000000001,
-            "y": 0.37559808612440193,
-            "ioValues": []
-        },
-        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.6682291666666667,
-            "y": 0.7464114832535885,
+            "x": 0.6989583333333333,
+            "y": 0.6411483253588517,
             "uniqueID": 762111,
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": 790
+                    "ioValue": 390
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": 790
                 },
                 {
                     "name": "zDist",
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.8796875000000001,
+            "y": 0.37559808612440193,
+            "ioValues": []
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "number",
-            "ap2Name": "zDist",
-            "ap2Primary": false,
-            "ap1ID": 808856,
-            "ap2ID": 463460
-        },
         {
             "ap1Name": "number",
             "ap2Name": "y length",
@@ -312,6 +305,20 @@
             "ap2Primary": false,
             "ap1ID": 724777,
             "ap2ID": 762888
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "m",
+            "ap2Primary": false,
+            "ap1ID": 107688,
+            "ap2ID": 762888
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "m",
+            "ap2Primary": false,
+            "ap1ID": 107688,
+            "ap2ID": 925350
         },
         {
             "ap1Name": "number",
@@ -342,20 +349,6 @@
             "ap2ID": 925350
         },
         {
-            "ap1Name": "number",
-            "ap2Name": "m",
-            "ap2Primary": false,
-            "ap1ID": 107688,
-            "ap2ID": 762888
-        },
-        {
-            "ap1Name": "number",
-            "ap2Name": "m",
-            "ap2Primary": false,
-            "ap1ID": 107688,
-            "ap2ID": 925350
-        },
-        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -364,7 +357,7 @@
         },
         {
             "ap1Name": "result",
-            "ap2Name": "xDist",
+            "ap2Name": "yDist",
             "ap2Primary": false,
             "ap1ID": 762888,
             "ap2ID": 762111
@@ -375,6 +368,13 @@
             "ap2Primary": false,
             "ap1ID": 248420,
             "ap2ID": 889510
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "xDist",
+            "ap2Primary": false,
+            "ap1ID": 925350,
+            "ap2ID": 762111
         },
         {
             "ap1Name": "geometry",

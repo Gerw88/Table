@@ -39,8 +39,8 @@
         {
             "atomType": "Constant",
             "name": "Table Top Y Dimension",
-            "x": 0.24635416666666668,
-            "y": 0.30143540669856456,
+            "x": 0.21614583333333334,
+            "y": 0.2822966507177034,
             "uniqueID": 724777,
             "ioValues": [
                 {
@@ -133,13 +133,13 @@
         {
             "atomType": "Equation",
             "name": "Equation",
-            "x": 0.5026041666666666,
-            "y": 0.43301435406698563,
+            "x": 0.47031249999999997,
+            "y": 0.42105263157894735,
             "uniqueID": 762888,
             "ioValues": [
                 {
                     "name": "y",
-                    "ioValue": 1
+                    "ioValue": 1600
                 },
                 {
                     "name": "m",
@@ -278,7 +278,7 @@
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": -9.5
+                    "ioValue": 790
                 },
                 {
                     "name": "yDist",
@@ -308,6 +308,13 @@
         },
         {
             "ap1Name": "number",
+            "ap2Name": "y",
+            "ap2Primary": false,
+            "ap1ID": 724777,
+            "ap2ID": 762888
+        },
+        {
+            "ap1Name": "number",
             "ap2Name": "height",
             "ap2Primary": false,
             "ap1ID": 233611,
@@ -326,6 +333,13 @@
             "ap2Primary": false,
             "ap1ID": 480025,
             "ap2ID": 177218
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 480025,
+            "ap2ID": 925350
         },
         {
             "ap1Name": "number",

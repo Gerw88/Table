@@ -69,6 +69,22 @@
             "max": 20
         },
         {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.16614583333333333,
+            "y": 0.42822966507177035,
+            "uniqueID": 107688,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 10
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
+        },
+        {
             "atomType": "Rectangle",
             "name": "Rectangle",
             "x": 0.39114583333333336,
@@ -140,9 +156,13 @@
                 {
                     "name": "x",
                     "ioValue": 800
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1
                 }
             ],
-            "currentEquation": "x/2"
+            "currentEquation": "x/2 - y"
         },
         {
             "atomType": "Translate",
@@ -203,6 +223,10 @@
             "ioValues": [
                 {
                     "name": "3D shape 3",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 4",
                     "ioValue": 10
                 }
             ]
@@ -312,6 +336,13 @@
             "ap2Primary": false,
             "ap1ID": 762888,
             "ap2ID": 762111
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 4",
+            "ap2Primary": false,
+            "ap1ID": 463460,
+            "ap2ID": 702883
         },
         {
             "ap1Name": "number",

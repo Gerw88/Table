@@ -29,6 +29,14 @@
             "max": 20
         },
         {
+            "atomType": "Input",
+            "name": "Table X",
+            "x": 0.013333333333333334,
+            "y": 0.31100478468899523,
+            "uniqueID": 145892,
+            "ioValues": []
+        },
+        {
             "atomType": "Constant",
             "name": "Table Top Y Dimension",
             "x": 0.23489583333333336,
@@ -45,12 +53,20 @@
             "max": 20
         },
         {
-            "atomType": "Input",
-            "name": "Table X",
-            "x": 0.013333333333333334,
-            "y": 0.3588516746411483,
-            "uniqueID": 145892,
-            "ioValues": []
+            "atomType": "Constant",
+            "name": "Table Top X Dimension",
+            "x": 0.23385416666666664,
+            "y": 0.31100478468899523,
+            "uniqueID": 480025,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 800
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
         },
         {
             "atomType": "Rectangle",
@@ -61,7 +77,7 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 10
+                    "ioValue": 800
                 },
                 {
                     "name": "y length",
@@ -99,15 +115,6 @@
             "max": 20
         },
         {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.5713541666666666,
-            "y": 0.18421052631578946,
-            "uniqueID": 487481,
-            "ioValues": [],
-            "selectedColorIndex": "11"
-        },
-        {
             "atomType": "Constant",
             "name": "Leg Height",
             "x": 0.24062500000000003,
@@ -122,6 +129,15 @@
             "evolve": false,
             "min": 0,
             "max": 20
+        },
+        {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.5609375,
+            "y": 0.2966507177033493,
+            "uniqueID": 487481,
+            "ioValues": [],
+            "selectedColorIndex": "11"
         },
         {
             "atomType": "Constant",
@@ -185,22 +201,6 @@
                     "ioValue": 900
                 }
             ]
-        },
-        {
-            "atomType": "Constant",
-            "name": "Table Top X Dimension",
-            "x": 0.06510416666666667,
-            "y": 0.7942583732057417,
-            "uniqueID": 480025,
-            "ioValues": [
-                {
-                    "name": "number",
-                    "ioValue": 800
-                }
-            ],
-            "evolve": false,
-            "min": 0,
-            "max": 20
         },
         {
             "atomType": "Equation",
@@ -413,6 +413,15 @@
             ]
         },
         {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.7197916666666667,
+            "y": 0.8779904306220097,
+            "uniqueID": 570800,
+            "ioValues": [],
+            "selectedColorIndex": "11"
+        },
+        {
             "atomType": "Stl",
             "name": "Stl",
             "x": 0.9697916666666666,
@@ -460,6 +469,20 @@
             "ap2ID": 762888
         },
         {
+            "ap1Name": "number",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 480025,
+            "ap2ID": 925350
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "x length",
+            "ap2Primary": false,
+            "ap1ID": 480025,
+            "ap2ID": 177218
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -488,13 +511,6 @@
             "ap2ID": 925350
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 487481,
-            "ap2ID": 463460
-        },
-        {
             "ap1Name": "number",
             "ap2Name": "height",
             "ap2Primary": false,
@@ -506,6 +522,13 @@
             "ap2Name": "zDist",
             "ap2Primary": false,
             "ap1ID": 248420,
+            "ap2ID": 463460
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 487481,
             "ap2ID": 463460
         },
         {
@@ -556,13 +579,6 @@
             "ap2Primary": false,
             "ap1ID": 463460,
             "ap2ID": 702883
-        },
-        {
-            "ap1Name": "number",
-            "ap2Name": "x",
-            "ap2Primary": false,
-            "ap1ID": 480025,
-            "ap2ID": 925350
         },
         {
             "ap1Name": "result",

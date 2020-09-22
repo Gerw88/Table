@@ -24,6 +24,22 @@
             "atomType": "Constant",
             "name": "Constant",
             "x": 0.24687499999999998,
+            "y": 0.07894736842105264,
+            "uniqueID": 808856,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 10
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
+        },
+        {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.24687499999999998,
             "y": 0.3373205741626794,
             "uniqueID": 724777,
             "ioValues": [
@@ -131,7 +147,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 10
                 }
             ]
         },
@@ -165,11 +181,17 @@
             ]
         },
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.7791666666666667,
-            "y": 0.3995215311004785,
-            "ioValues": []
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.7765625,
+            "y": 0.3708133971291866,
+            "uniqueID": 702883,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Circle",
@@ -183,9 +205,23 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.8796875000000001,
+            "y": 0.37559808612440193,
+            "ioValues": []
         }
     ],
     "allConnectors": [
+        {
+            "ap1Name": "number",
+            "ap2Name": "zDist",
+            "ap2Primary": false,
+            "ap1ID": 808856,
+            "ap2ID": 463460
+        },
         {
             "ap1Name": "number",
             "ap2Name": "y length",
@@ -222,11 +258,24 @@
             "ap2ID": 463460
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 463460,
+            "ap2ID": 702883
+        },
+        {
             "ap1Name": "number",
             "ap2Name": "diameter",
             "ap2Primary": false,
             "ap1ID": 768626,
             "ap2ID": 153556
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 702883
         },
         {
             "ap1Name": "geometry",

@@ -115,6 +115,27 @@
             ]
         },
         {
+            "atomType": "Box",
+            "name": "Box",
+            "x": 0.37447916666666664,
+            "y": 0.47846889952153115,
+            "ioValues": []
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.390625,
+            "y": 0.4688995215311005,
+            "uniqueID": 762888,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                }
+            ],
+            "currentEquation": "x"
+        },
+        {
             "atomType": "Constant",
             "name": "Leg Height",
             "x": 0.2484375,
@@ -129,24 +150,6 @@
             "evolve": false,
             "min": 0,
             "max": 20
-        },
-        {
-            "atomType": "Equation",
-            "name": "Equation",
-            "x": 0.48958333333333337,
-            "y": 0.49282296650717705,
-            "uniqueID": 762888,
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 1
-                },
-                {
-                    "name": "y",
-                    "ioValue": 1
-                }
-            ],
-            "currentEquation": "x + y"
         },
         {
             "atomType": "Translate",

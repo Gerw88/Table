@@ -160,27 +160,6 @@
             ]
         },
         {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.6875,
-            "y": 0.3181818181818182,
-            "uniqueID": 576552,
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": -310
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 710
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.4661458333333333,
@@ -196,8 +175,8 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.7703125,
-            "y": 0.15550239234449761,
+            "x": 0.7020833333333333,
+            "y": 0.33014354066985646,
             "uniqueID": 463460,
             "ioValues": [
                 {
@@ -227,27 +206,6 @@
                 }
             ],
             "currentEquation": "x * -1"
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.8354166666666666,
-            "y": 0.17703349282296652,
-            "uniqueID": 702883,
-            "ioValues": [
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 4",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 5",
-                    "ioValue": 10
-                }
-            ]
         },
         {
             "atomType": "Translate",
@@ -289,19 +247,40 @@
             "currentEquation": "y/2 - m"
         },
         {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.8489583333333333,
+            "y": 0.37559808612440193,
+            "uniqueID": 702883,
+            "ioValues": [
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 5",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.7296875,
-            "y": 0.5550239234449761,
-            "uniqueID": 123695,
+            "x": 0.7328125,
+            "y": 0.5717703349282297,
+            "uniqueID": 576552,
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": 310
+                    "ioValue": -310
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -710
+                    "ioValue": 710
                 },
                 {
                     "name": "zDist",
@@ -324,19 +303,23 @@
             "currentEquation": "x * -1"
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.9041666666666666,
-            "y": 0.37559808612440193,
-            "uniqueID": 629796,
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.7911458333333333,
+            "y": 0.5143540669856459,
+            "uniqueID": 123695,
             "ioValues": [
                 {
-                    "name": "3D shape 4",
-                    "ioValue": 10
+                    "name": "xDist",
+                    "ioValue": 310
                 },
                 {
-                    "name": "3D shape 5",
-                    "ioValue": 10
+                    "name": "yDist",
+                    "ioValue": -710
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
                 }
             ]
         },
@@ -359,17 +342,10 @@
             "currentEquation": "x/2 - m"
         },
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.9609374999999999,
-            "y": 0.37559808612440193,
-            "ioValues": []
-        },
-        {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.825,
-            "y": 0.6746411483253588,
+            "x": 0.8463541666666666,
+            "y": 0.5502392344497608,
             "uniqueID": 212452,
             "ioValues": [
                 {
@@ -383,10 +359,17 @@
             ]
         },
         {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.9848958333333332,
+            "y": 0.3397129186602871,
+            "ioValues": []
+        },
+        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.753125,
-            "y": 0.7942583732057417,
+            "x": 0.7713541666666667,
+            "y": 0.7057416267942583,
             "uniqueID": 762111,
             "ioValues": [
                 {
@@ -402,6 +385,31 @@
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.9234375,
+            "y": 0.4904306220095694,
+            "uniqueID": 629796,
+            "ioValues": [
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 5",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.9697916666666666,
+            "y": 0.8444976076555024,
+            "uniqueID": 956463,
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -498,13 +506,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 5",
-            "ap2Primary": false,
-            "ap1ID": 576552,
-            "ap2ID": 212452
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 889510,
@@ -556,13 +557,6 @@
             "ap1Name": "geometry",
             "ap2Name": "3D shape 5",
             "ap2Primary": false,
-            "ap1ID": 702883,
-            "ap2ID": 629796
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 5",
-            "ap2Primary": false,
             "ap1ID": 336641,
             "ap2ID": 702883
         },
@@ -589,9 +583,16 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 4",
+            "ap2Name": "3D shape 5",
             "ap2Primary": false,
-            "ap1ID": 123695,
+            "ap1ID": 702883,
+            "ap2ID": 629796
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 5",
+            "ap2Primary": false,
+            "ap1ID": 576552,
             "ap2ID": 212452
         },
         {
@@ -610,9 +611,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap2Name": "3D shape 4",
             "ap2Primary": false,
-            "ap1ID": 629796
+            "ap1ID": 123695,
+            "ap2ID": 212452
         },
         {
             "ap1Name": "result",
@@ -648,6 +650,19 @@
             "ap2Primary": false,
             "ap1ID": 762111,
             "ap2ID": 702883
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 629796
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 629796,
+            "ap2ID": 956463
         }
     ],
     "fileTypeVersion": 1,

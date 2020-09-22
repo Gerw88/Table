@@ -38,30 +38,14 @@
         },
         {
             "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.24687499999999998,
-            "y": 0.3373205741626794,
+            "name": "Table Top Y Dimension",
+            "x": 0.24635416666666668,
+            "y": 0.30143540669856456,
             "uniqueID": 724777,
             "ioValues": [
                 {
                     "name": "number",
                     "ioValue": 1600
-                }
-            ],
-            "evolve": false,
-            "min": 0,
-            "max": 20
-        },
-        {
-            "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.24687499999999998,
-            "y": 0.3373205741626794,
-            "uniqueID": 387582,
-            "ioValues": [
-                {
-                    "name": "number",
-                    "ioValue": 10
                 }
             ],
             "evolve": false,
@@ -103,7 +87,7 @@
         },
         {
             "atomType": "Constant",
-            "name": "Constant",
+            "name": "Table Top X Dimension",
             "x": 0.24635416666666668,
             "y": 0.4641148325358852,
             "uniqueID": 480025,
@@ -145,6 +129,24 @@
             "evolve": false,
             "min": 0,
             "max": 20
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.48958333333333337,
+            "y": 0.49282296650717705,
+            "uniqueID": 762888,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1
+                }
+            ],
+            "currentEquation": "x + y"
         },
         {
             "atomType": "Translate",

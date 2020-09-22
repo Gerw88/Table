@@ -115,10 +115,36 @@
             ]
         },
         {
+            "atomType": "ShrinkWrap",
+            "name": "Shrink Wrap",
+            "x": 0.6151041666666667,
+            "y": 0.5574162679425837,
+            "uniqueID": 235263,
+            "ioValues": [
+                {
+                    "name": "3D shape 3",
+                    "ioValue": ""
+                },
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 10
+                }
+            ],
+            "closedSelection": 0
+        },
+        {
             "atomType": "Constant",
             "name": "Constant",
-            "x": 0.37447916666666664,
-            "y": 0.6076555023923446,
+            "x": 0.24791666666666667,
+            "y": 0.8110047846889952,
             "uniqueID": 768626,
             "ioValues": [
                 {
@@ -131,34 +157,34 @@
             "max": 20
         },
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.6411458333333333,
-            "y": 0.42105263157894735,
-            "ioValues": []
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.509375,
-            "y": 0.6363636363636364,
-            "uniqueID": 153556,
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.5192708333333333,
+            "y": 0.6794258373205742,
+            "uniqueID": 889510,
             "ioValues": [
                 {
-                    "name": "diameter",
+                    "name": "height",
                     "ioValue": 10
                 }
             ]
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.6171875,
-            "y": 0.6818181818181819,
-            "uniqueID": 889510,
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.7791666666666667,
+            "y": 0.3995215311004785,
+            "ioValues": []
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.3635416666666667,
+            "y": 0.7966507177033494,
+            "uniqueID": 153556,
             "ioValues": [
                 {
-                    "name": "height",
+                    "name": "diameter",
                     "ioValue": 10
                 }
             ]
@@ -200,11 +226,25 @@
             "ap1ID": 570940
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 570940,
+            "ap2ID": 235263
+        },
+        {
             "ap1Name": "number",
             "ap2Name": "diameter",
             "ap2Primary": false,
             "ap1ID": 768626,
             "ap2ID": 153556
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 889510,
+            "ap2ID": 235263
         },
         {
             "ap1Name": "geometry",

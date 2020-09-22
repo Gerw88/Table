@@ -22,6 +22,22 @@
         },
         {
             "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.15208333333333335,
+            "y": 0.09808612440191387,
+            "uniqueID": 233611,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 40
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
+        },
+        {
+            "atomType": "Constant",
             "name": "Leg layout padding",
             "x": 0.24062500000000003,
             "y": 0.18421052631578946,
@@ -46,22 +62,6 @@
                 {
                     "name": "number",
                     "ioValue": 1600
-                }
-            ],
-            "evolve": false,
-            "min": 0,
-            "max": 20
-        },
-        {
-            "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.4114583333333333,
-            "y": 0.17464114832535885,
-            "uniqueID": 233611,
-            "ioValues": [
-                {
-                    "name": "number",
-                    "ioValue": 40
                 }
             ],
             "evolve": false,
@@ -371,7 +371,16 @@
             "x": 0.825,
             "y": 0.6746411483253588,
             "uniqueID": 212452,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 5",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Translate",
@@ -396,6 +405,13 @@
         }
     ],
     "allConnectors": [
+        {
+            "ap1Name": "number",
+            "ap2Name": "height",
+            "ap2Primary": false,
+            "ap1ID": 233611,
+            "ap2ID": 570940
+        },
         {
             "ap1Name": "number",
             "ap2Name": "m",
@@ -423,13 +439,6 @@
             "ap2Primary": false,
             "ap1ID": 724777,
             "ap2ID": 762888
-        },
-        {
-            "ap1Name": "number",
-            "ap2Name": "height",
-            "ap2Primary": false,
-            "ap1ID": 233611,
-            "ap2ID": 570940
         },
         {
             "ap1Name": "geometry",
@@ -558,6 +567,13 @@
             "ap2ID": 123695
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 5",
+            "ap2Primary": false,
+            "ap1ID": 576552,
+            "ap2ID": 212452
+        },
+        {
             "ap1Name": "number",
             "ap2Name": "diameter",
             "ap2Primary": false,
@@ -577,6 +593,13 @@
             "ap2Primary": true,
             "ap1ID": 153556,
             "ap2ID": 889510
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 4",
+            "ap2Primary": false,
+            "ap1ID": 123695,
+            "ap2ID": 212452
         },
         {
             "ap1Name": "geometry",
